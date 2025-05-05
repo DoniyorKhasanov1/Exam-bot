@@ -60,7 +60,7 @@
    shu cache larda saqlanadi. Bu usul orqali dastur ishlash samaradorligi ortadi.
 *** 
 ## 10. Atomic class lar qanday algoritm orqali race condition oldini oladi?
-   Could not response this question!
+   Java dagi Atomic class lar CAS - Compare-and-Swap algoritmi orqali race condition oldini oladi. Bu algoritm hardware darajasida amalga oshadigan jarayon hisoblanadi va class lar ham lock-free darajada ishlaydi
 ***
 ## 11.Serialization va deserialization nima?
    Serialization - bu malumotni uzatishda yoki biror faylga saqlashda stream belgilarga aylantirish. 
