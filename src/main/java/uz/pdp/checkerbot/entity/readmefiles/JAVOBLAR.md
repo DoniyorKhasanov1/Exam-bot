@@ -63,10 +63,12 @@
    Could not response this question!
 ***
 ## 11.Serialization va deserialization nima?
-   Serialization - bu malumotni uzatishda yoki biror faylga saqlashda inson tushunmaydigan belgilarga aylantirish. 
+   Serialization - bu malumotni uzatishda yoki biror faylga saqlashda stream belgilarga aylantirish. 
    Deserialization - bu serialized malumotlarni encryption holatidan inson tushunadigan holatga o'tkazishga aytiladi
 ***
 ## 12. Serializable vs Externalizable interfaces
+`Serializable` - bu marker interface. Unda hech qanday method aniqlanmagan. Uning obyektlarni stream ga aylantirish jarayoni JVM orqali avtomatlashtirilgan. Uni dasturchi custom behavior berib yubora olmaydi.
+`Externalizable` - bu esa interface. Bu interfeysda `writeExternal()` va `readExternal()` methodlari aniqlangan va bu metodlardan foydalanib stream ga aylantirilayotgan malumotlar ustida custom behavior belgilash imkoniyati bor
 ***
 ## 13. ReentrantLock haqida malumot
   `ReentrantLock` - bu biror thread ishlashi davomida thread foydalanayotgan malumotni sinxron qilish uchun ishlatiladigan class 
