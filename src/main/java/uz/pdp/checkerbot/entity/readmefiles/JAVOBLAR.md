@@ -98,4 +98,21 @@ Logger classida log larning turli xil darajalari mavjud: `WARNING`,`INFO`.
 ***
 ## 17. Maven nima?
   Maven - bu loyihalarni qurishda project management control kabi ishlarni avtomatlashtiradigan built-tool hisoblanadi.
+***
+## 18. Behavior parameterization nima?
+  Behavior Parameterization — bu metodga funksiyani parametr sifatida berish orqali uning harakatini (ya'ni, "behavior"ini) o‘zgartirish usuli.
+***
+## 19. Imperative va Declarative programming
+  ### Imperative Programming
+- Bu yondashuvda dasturchi kompyuterga qadam-baqadam nima qilish kerakligini aytadi. Ya'ni, "qanday" bajarilishini aniq yozadi. Dasturchi xotira holatini, o‘zgaruvchilarni, sikllarni va shartli operatorlarni boshqaradi.
+  ### Declarative programming
+  - Bu uslubda esa siz "nima qilish kerakligini" aytasiz, lekin "qanday bajarilishi" bilan shug‘ullanmaysiz. Ya’ni, siz maqsadni ko‘rsatasiz, tizim esa unga qanday erishishni hal qiladi.
+
+***
+## 20 .Stream va Collection
+  Stream — bu Java'da ma'lumotlar ustida ketma-ket amallarni bajarishga mo‘ljallangan abstraksiya. U ma'lumot manbasidan (masalan, Collection’dan) kelgan elementlarni ketma-ket yoki parallel tarzda qayta ishlashga yordam beradi. Stream o‘z-o‘zidan ma'lumot saqlamaydi, faqat oqim tarzida ularni qayta ishlaydi.
+
+Stream va Collection o‘rtasidagi asosiy farq shundaki:
+Collection — bu ma'lumotlarni saqlashga mo‘ljallangan tuzilma.
+Stream esa — bu ma'lumotlarni oqim tarzida qayta ishlash uchun vosita.
   
